@@ -1,0 +1,47 @@
+{
+  "name": "acklen-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js --require esm --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenware/acklen-challenge.git"
+  },
+  "author": "kevin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenware/acklen-challenge/issues"
+  },
+  "homepage": "https://github.com/kenware/acklen-challenge#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "esm": "^3.2.25",
+    "mocha": "^8.4.0",
+    "moment": "^2.29.1",
+    "sinon": "^11.1.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "nodemon": "^2.0.7",
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.13.13",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/register": "^7.4.0"
+  }
+}
